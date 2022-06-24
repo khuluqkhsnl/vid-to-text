@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
     <link href="{{ asset('gull/dist-assets/css/themes/lite-purple.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('gull/dist-assets/css/plugins/perfect-scrollbar.min.css') }}" rel="stylesheet" />
+{{--extra--}}
+    <link rel="stylesheet" href="{{ asset('gull/dist-assets/css/plugins/dropzone.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('gull/dist-assets/css/plugins/ladda-themeless.min.css') }}" />
+
 </head>
 
 <body class="text-left">
@@ -173,6 +177,13 @@
     <script src="{{ asset('gull/dist-assets/js/plugins/echarts.min.js') }}"></script>
     <script src="{{ asset('gull/dist-assets/js/scripts/echart.options.min.js') }}"></script>
     <script src="{{ asset('gull/dist-assets/js/scripts/dashboard.v1.script.min.js') }}"></script>
+{{--extra--}}
+    <script src="{{ asset('gull/dist-assets/js/plugins/dropzone.min.js') }}"></script>
+    <script src="{{ asset('gull/dist-assets/js/scripts/dropzone.script.min.js') }}"></script>
+    <script src="{{ asset('gull/dist-assets/js/plugins/spin.min.js') }}"></script>
+    <script src="{{ asset('gull/dist-assets/js/plugins/ladda.min.js') }}"></script>
+    <script src="{{ asset('gull/dist-assets/js/scripts/ladda.script.min.js') }}"></script>
+
 </body>
 
 </html>
