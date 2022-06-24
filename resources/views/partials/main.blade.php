@@ -17,7 +17,7 @@
 <body class="text-left">
     <div class="app-admin-wrap layout-horizontal-bar">
 
-        <div class="main-header">
+        <div class="main-header" style="background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);">
             @include('partials.header')
         </div>
         <!-- =============== Horizontal bar Start ================-->
